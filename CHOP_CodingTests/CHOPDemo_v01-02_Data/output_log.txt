@@ -1,0 +1,35 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 Ti  (ID=0x100a)
+    Vendor:   NVIDIA
+    VRAM:     3013 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.058 seconds
+Platform assembly: E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\THESIS\CHOP_Demo\CHOP_CodingTests\CHOPDemo_v01-02_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initialized touch support.
+WARNING: Shader Unsupported: 'Outlined/Diffuse' - Pass 'OUTLINE' has no vertex shader
+UnloadTime: 0.938417 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: bb4a4 -> priority: 1 
+  Thread -> id: bbbf8 -> priority: 1 
+  Thread -> id: bb814 -> priority: 1 
+  Thread -> id: bb3c4 -> priority: 1 
+  Thread -> id: bb150 -> priority: 1 
+  Thread -> id: bb048 -> priority: 1 
