@@ -4,7 +4,7 @@ using System.Collections;
 public class ClickToMove : MonoBehaviour {
 
     private Animator animator;
-    private NavMeshAgent navMeshAgent;
+    private UnityEngine.AI.NavMeshAgent navMeshAgent;
     public bool walking;
     public Camera Cam;
     //public GameObject waypoint;
@@ -14,7 +14,7 @@ public class ClickToMove : MonoBehaviour {
 	void Awake ()
     {
         animator = GetComponent<Animator>();
-        navMeshAgent = GetComponent<NavMeshAgent>();
+        navMeshAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 	}
 	
 
