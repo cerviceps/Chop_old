@@ -948,6 +948,7 @@ GameObject:
   - component: {fileID: 892511912}
   - component: {fileID: 892511911}
   - component: {fileID: 892511915}
+  - component: {fileID: 892511916}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1032,6 +1033,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &892511916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 892511910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b084a3b3c5edab4dbee42b60a7162cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 1967400897}
 --- !u!1 &892536632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,6 +1379,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.1388779, y: 9.139385, z: 2.3991423}
   m_Center: {x: 0.590936, y: 0.39632198, z: -0.28434432}
+--- !u!23 &1104830218 stripped
+MeshRenderer:
+  m_PrefabParentObject: {fileID: 2300000, guid: fe576557de6897a4fbfcae710a745c0f,
+    type: 3}
+  m_PrefabInternal: {fileID: 617241063}
+--- !u!114 &1104830221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1104830215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175fc1f2f1b66744ebad08508b825c14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  render: {fileID: 1104830218}
+  mat: {fileID: 2100000, guid: 0aa795879ef73814e962d26987723feb, type: 2}
 --- !u!114 &1122050939 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114417880534611878, guid: e8083ab5f74defd488efe6b95cb0ecd9,
@@ -3104,6 +3135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1967400898}
   - component: {fileID: 1967400899}
+  - component: {fileID: 1967400900}
   m_Layer: 0
   m_Name: Inventory
   m_TagString: Untagged
@@ -3157,6 +3189,27 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
+--- !u!114 &1967400900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1967400897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e9fc0dfc64de644b81d6e6117e072f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1988838623
 GameObject:
   m_ObjectHideFlags: 0
